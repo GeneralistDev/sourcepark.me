@@ -21,7 +21,7 @@ namespace SourceParkAPI.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("BetterConnection", throwIfV1Schema: false)
         {
         }
         
